@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mary Wangechi — Data Engineer</title>
+    <meta name="description" content="Data Engineering portfolio of Mary Wangechi. Building robust, scalable data infrastructure that powers intelligent decisions.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Vignette Glow Overlay -->
+    <div class="vignette-glow" aria-hidden="true"></div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <a href="#hero" class="nav-logo">MW</a>
+        <div class="nav-links">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="section section-light hero" id="hero">
+        <div class="container hero-content">
+            <p class="hero-greeting">HELLO, I'M</p>
+            <h1 class="hero-name">Mary Wangechi</h1>
+            <p class="hero-title"><em>Data Engineer</em></p>
+            <p class="hero-tagline">Building Robust Data Infrastructure, Not Just Dashboards.</p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section section-dark" id="about">
+        <div class="container">
+            <h2 class="section-title animate-in">About Me</h2>
+            <div class="about-grid animate-in">
+                <div class="about-text">
+                    <p>
+                        I'm a data engineer passionate about designing and building the systems that 
+                        make data <strong>reliable, accessible, and actionable</strong>. I specialize in 
+                        constructing end-to-end data pipelines, optimizing data warehouses, and implementing 
+                        scalable ETL/ELT frameworks that transform raw data into trusted analytical assets.
+                    </p>
+                    <p>
+                        My approach focuses on engineering <em>data systems that scale</em> — from ingestion 
+                        to orchestration to serving — using modern tools like Apache Spark, Airflow, dbt, 
+                        and cloud-native platforms. I believe great data infrastructure should be invisible: 
+                        it simply works, every time, at any scale.
+                    </p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <span class="highlight-number">10+</span>
+                        <span class="highlight-label">Pipelines Built</span>
+                    </div>
+                    <div class="highlight-card">
+                        <span class="highlight-number">5+</span>
+                        <span class="highlight-label">Cloud Projects</span>
+                    </div>
+                    <div class="highlight-card">
+                        <span class="highlight-number">TB+</span>
+                        <span class="highlight-label">Data Processed</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section section-light" id="projects">
+        <div class="container">
+            <h2 class="section-title animate-in">The Pipeline</h2>
+            <p class="section-subtitle animate-in"><em>Engineering Data Systems End-to-End.</em></p>
+            <div class="projects-grid">
+
+                <article class="project-card animate-in">
+                    <div class="project-tags">
+                        <span class="tag">Apache Spark</span>
+                        <span class="tag">Airflow</span>
+                        <span class="tag">AWS S3</span>
+                    </div>
+                    <h3 class="project-title">Real-Time E-Commerce Analytics Pipeline</h3>
+                    <p class="project-desc">
+                        Designed and deployed a streaming data pipeline on AWS that ingests clickstream 
+                        events via Kafka, processes them with Spark Structured Streaming, and loads 
+                        aggregated metrics into Redshift for real-time dashboarding.
+                    </p>
+                    <a href="#" class="project-link">View on GitHub →</a>
+                </article>
+
+                <article class="project-card animate-in">
+                    <div class="project-tags">
+                        <span class="tag">dbt</span>
+                        <span class="tag">BigQuery</span>
+                        <span class="tag">Data Modeling</span>
+                    </div>
+                    <h3 class="project-title">Star Schema Data Warehouse for Logistics</h3>
+                    <p class="project-desc">
+                        Built a dimensional data warehouse using dbt and BigQuery to consolidate 
+                        shipment, inventory, and supplier data. Implemented SCD Type 2 slowly 
+                        changing dimensions and comprehensive data quality tests.
+                    </p>
+                    <a href="#" class="project-link">View on GitHub →</a>
+                </article>
+
+                <article class="project-card animate-in">
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">PostgreSQL</span>
+                    </div>
+                    <h3 class="project-title">Automated ETL Framework for Financial Data</h3>
+                    <p class="project-desc">
+                        Created a containerized ETL framework that extracts financial data from 
+                        REST APIs, validates and transforms records with Great Expectations, and 
+                        loads clean datasets into a PostgreSQL data mart for BI consumption.
+                    </p>
+                    <a href="#" class="project-link">View on GitHub →</a>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-dark" id="skills">
+        <div class="container">
+            <h2 class="section-title animate-in">Technical Skills</h2>
+            <p class="section-subtitle animate-in"><em>A Modern Data Engineering Toolchain.</em></p>
+            <div class="skills-grid">
+
+                <div class="skill-group animate-in">
+                    <span class="skill-group-icon">🔧</span>
+                    <h3 class="skill-group-title">The Core Stack</h3>
+                    <p class="skill-group-desc"><em>Languages & frameworks for building data systems.</em></p>
+                    <div class="skill-pills">
+                        <span class="pill">Python</span>
+                        <span class="pill">SQL (Advanced)</span>
+                        <span class="pill">Bash / Shell</span>
+                        <span class="pill">Scala</span>
+                    </div>
+                </div>
+
+                <div class="skill-group animate-in">
+                    <span class="skill-group-icon">⚡</span>
+                    <h3 class="skill-group-title">Pipeline & Orchestration</h3>
+                    <p class="skill-group-desc"><em>Moving data reliably at scale.</em></p>
+                    <div class="skill-pills">
+                        <span class="pill">Apache Spark</span>
+                        <span class="pill">Apache Airflow</span>
+                        <span class="pill">Apache Kafka</span>
+                        <span class="pill">dbt</span>
+                        <span class="pill">Luigi</span>
+                    </div>
+                </div>
+
+                <div class="skill-group animate-in">
+                    <span class="skill-group-icon">☁️</span>
+                    <h3 class="skill-group-title">Cloud & Infrastructure</h3>
+                    <p class="skill-group-desc"><em>Deploying robust systems in production.</em></p>
+                    <div class="skill-pills">
+                        <span class="pill">AWS (S3, Redshift, Glue, Lambda)</span>
+                        <span class="pill">GCP (BigQuery, Dataflow)</span>
+                        <span class="pill">Docker / Kubernetes</span>
+                        <span class="pill">Terraform</span>
+                        <span class="pill">CI/CD Pipelines</span>
+                    </div>
+                </div>
+
+                <div class="skill-group animate-in">
+                    <span class="skill-group-icon">🗄️</span>
+                    <h3 class="skill-group-title">Databases & Storage</h3>
+                    <p class="skill-group-desc"><em>Structured and unstructured data persistence.</em></p>
+                    <div class="skill-pills">
+                        <span class="pill">PostgreSQL</span>
+                        <span class="pill">MySQL</span>
+                        <span class="pill">MongoDB</span>
+                        <span class="pill">Redis</span>
+                        <span class="pill">Delta Lake</span>
+                        <span class="pill">Apache Iceberg</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section section-light" id="education">
+        <div class="container">
+            <h2 class="section-title animate-in">Education</h2>
+            <div class="education-grid">
+                <div class="edu-card animate-in">
+                    <span class="edu-badge badge-degree">Degree</span>
+                    <h3 class="edu-title">BSc Computer Science</h3>
+                    <p class="edu-institution">University</p>
+                    <p class="edu-desc">
+                        Foundation in algorithms, data structures, databases, and distributed systems.
+                    </p>
+                </div>
+                <div class="edu-card animate-in">
+                    <span class="edu-badge badge-cert">Certification</span>
+                    <h3 class="edu-title">AWS Cloud Practitioner</h3>
+                    <p class="edu-institution">Amazon Web Services</p>
+                    <p class="edu-desc">
+                        Foundational understanding of AWS Cloud services, architecture, and best practices.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-dark" id="contact">
+        <div class="container contact-container">
+            <h2 class="section-title animate-in">Let's Connect</h2>
+            <p class="section-subtitle animate-in"><em>Open to opportunities in data engineering and analytics.</em></p>
+            <div class="contact-links animate-in">
+                <a href="mailto:bakta89@gmail.com" class="contact-card">
+                    <span class="contact-icon">✉️</span>
+                    <span class="contact-label">Email</span>
+                    <span class="contact-value">bakta89@gmail.com</span>
+                </a>
+                <a href="https://github.com/wamahua" target="_blank" rel="noopener" class="contact-card">
+                    <span class="contact-icon">💻</span>
+                    <span class="contact-label">GitHub</span>
+                    <span class="contact-value">wamahua</span>
+                </a>
+                <a href="https://linkedin.com/in/" target="_blank" rel="noopener" class="contact-card">
+                    <span class="contact-icon">🔗</span>
+                    <span class="contact-label">LinkedIn</span>
+                    <span class="contact-value">Mary Wangechi</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Mary Wangechi. Engineered with precision.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
