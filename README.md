@@ -9,6 +9,7 @@ Welcome to the data engineering portfolio of Mary Wangechi. This repository host
 - **[Real-Time E-Commerce Analytics](https://github.com/mwangechi/ecommerce-pipeline)**: Kafka, Spark Streaming, Airflow.
 - **[Logistics Data Warehouse](https://github.com/mwangechi/logistics-warehouse)**: dbt, BigQuery, Dimensional Modeling.
 - **[Financial ETL Framework](https://github.com/mwangechi/financial-etl)**: Python, Docker, PostgreSQL, Data Quality.
+- **[Fintech Log Aggregation](https://github.com/mwangechi/log-aggregation-pipeline)**: ELK Stack, Kafka, Data Retention Policies.
 
 ## Tech Stack
 - **HTML5 / CSS3 / JavaScript (Vanilla)**
